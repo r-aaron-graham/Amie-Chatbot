@@ -1,21 +1,13 @@
-# Amie-Chatbot
+# AMIE chatbot experiments
 
-## Project Overview
+This repository contains an earlier AMIE chatbot prototype. [main.py](main.py) defines Flask routes for chat, voice, and a test endpoint. [pyproject.toml](pyproject.toml) records the original Python dependencies. The older chat and voice integrations have not been tested for this portfolio update.
 
-The Amie-Chatbot repository contains scripts and resources related to chatbot development and functionality. It includes various tools and examples for creating and enhancing chatbots.
+## Run the classroom activity demo
 
-## Features
+Use the [AMIE classroom activity lookup demo](https://github.com/r-aaron-graham/Amie-Chatbot-Frontend/tree/undefined). It runs locally in a browser with fictional activity cards. Try `active listening` to see a citation, then `weather forecast` to see the demo abstain. The linked README includes the preview and test commands.
 
-- Chatbot development scripts
-- Examples for practice and learning
-- Resources for chatbot functionality
+The demo is a separate, deterministic frontend. It does not call the services in this repository. See [AMIE Python backend experiments](https://github.com/r-aaron-graham/AmieAIBackend) for the separate Flask, speech, and integration work.
 
-## Usage
+## Earlier project reference
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/cordz-del/Amie-Chatbot.git
-   cd Amie-Chatbot
-   ```
-2. Explore the available scripts and resources.
-3. Use the examples to practice and enhance your chatbot development skills.
+The previous README linked to [cordz-del/Amie-Chatbot](https://github.com/cordz-del/Amie-Chatbot).
